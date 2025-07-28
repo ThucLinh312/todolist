@@ -1,0 +1,44 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+   body {
+        font-family: Arial;
+        padding: 20px;
+        }
+
+    #taskName {
+        width: 60%;
+        padding: 8px;
+        font-size: 15px; 
+        }
+
+    button { 
+        padding: 8px 12px;
+        margin-left: 5px;
+        }
+
+    ul { 
+        list-style: none; 
+        padding: 0;
+        margin-top: 20px; 
+        }
+
+    li { padding: 10px; 
+        margin-bottom: 8px;
+       
+        border-radius: 5px; 
+        display: flex; 
+        align-items: center; 
+        }
+
+    .task-text { 
+        font-size:15px
+        }
+
+        
+    #message { 
+        margin-top: 10px; 
+        font-weight: bold;
+    }
